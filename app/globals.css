@@ -1,0 +1,36 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 14px;
+}
+
+body {
+  @apply bg-white text-slate-900 antialiased;
+}
+.container-p {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+.section {
+  @apply py-14 sm:py-20;
+}
+.card {
+  @apply rounded-2xl shadow-sm border border-slate-200 bg-white;
+}
+.btn {
+  @apply inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-medium shadow-sm border border-slate-200 hover:shadow transition;
+}
+.btn-primary {
+  @apply bg-brand-600 text-white border-brand-600 hover:bg-brand-700 hover:border-brand-700;
+}
+.badge {
+  @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-medium border border-slate-200 bg-white shadow-sm;
+}
+.nav-link {
+  @apply text-sm font-medium hover:text-brand-700;
+}
+.dropdown {
+  @apply absolute hidden group-hover:block top-full left-0 bg-white rounded-xl shadow border border-slate-200 p-4;
+}
