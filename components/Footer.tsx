@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 
 export default function Footer() {
@@ -6,8 +5,14 @@ export default function Footer() {
     <footer className="border-t border-slate-200">
       <div className="container-p py-10 grid md:grid-cols-4 gap-8">
         <div>
-          <div className="h-10 w-10 rounded-xl bg-brand-700 text-white grid place-items-center font-bold">SD</div>
-          <div className="text-sm text-slate-600 mt-3">© {new Date().getFullYear()} WeGrow Analytics Inc. All rights reserved.</div>
+          <img
+            src="/WeGrowLogo2.jpg"
+            alt="WeGrow Logo"
+            className="h-10 w-10 rounded-xl object-cover"
+          />
+          <div className="text-sm text-slate-600 mt-3">
+            © {new Date().getFullYear()} WeGrow Inc. All rights reserved.
+          </div>
         </div>
         <div>
           <div className="font-medium mb-3">Company</div>

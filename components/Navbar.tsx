@@ -56,8 +56,8 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
       <div className="container-p flex items-center justify-between h-16">
         <div className="flex items-center gap-3">
-          <div className="h-9 w-9 rounded-xl bg-brand-700 text-white grid place-items-center font-bold">WG</div>
-          <span className="font-semibold">WeGrow</span>
+          <img src="/WeGrowLogo2.jpg" alt="WeGrow Logo" className="h-9 w-9 rounded-xl object-cover" />
+<span className="font-semibold">WeGrow</span>
         </div>
 
         <nav className="hidden md:flex items-center gap-8">

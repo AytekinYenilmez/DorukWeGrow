@@ -1,5 +1,5 @@
 
-# ScoreData — Skorveri-style English Site
+# WeGrow — Skorveri-style English Site
 
 A clean Next.js + Tailwind CSS implementation inspired by the layout and sections of **skorveri.com.tr**, but written from scratch and in English.
 
